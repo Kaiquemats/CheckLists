@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    
     box-sizing: border-box;
 }
 
@@ -58,4 +58,12 @@ body.dark {
 
 .fa-sun {
     color: #f39c12;
+}
+
+#checklist-content {
+    margin: 20px;
+}
+
+.checkbox {
+    margin: 10px;
 }
