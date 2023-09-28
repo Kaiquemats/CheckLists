@@ -67,3 +67,12 @@ body.dark {
 .checkbox {
     margin: 10px;
 }
+
+#add-checkbox {
+    opacity: 10;
+}
+
+
+#menu-ham2 {
+    display: none;
+}

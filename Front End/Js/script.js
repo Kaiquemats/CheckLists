@@ -35,3 +35,15 @@ addButton.addEventListener('click', () => {
     // Limpa o campo de entrada de texto
     document.getElementById('checkbox-text').value = '';
 });
+
+
+var MenuBotao = document.getElementById("menu-ham")
+var Menu = document.getElementById("menu-ham2")
+
+MenuBotao.addEventListener("click", function() {
+    if (Menu.style.display === "block" ) {
+        Menu.style.display = "none"
+    } else {
+        Menu.style.display = "block"
+    }
+})

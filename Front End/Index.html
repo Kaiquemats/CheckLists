@@ -36,28 +36,46 @@
 
     </header>
 
-    <main>
-        <section>
+    <main id="corpo">
+        <section id="primeira-parte">
             <h1>Listas</h1>
             <div id="checklist-container">
                 
             </div>
             <input type="text" id="checkbox-text" placeholder="Digite na caixa"><br>
-            <button id="add-checkbox">Adicionar Listas </button>
-            
-        </section>
-        <section>
+            <button id="add-checkbox"><box-icon name='add-to-queue' ></box-icon></i></button>
 
+
+        </section>
+        <section id="segunda-parte">
+
+                                            <!--Area da busca-->
+            <input type="text" name="Busca" id="bc"> <button id="busca-lupa">Pesquisar<box-icon name='search-alt' ></box-icon></button>
+            
+            
+            <br><button id="menu-ham">&#9776</button>
+
+            <div id="menu-ham2">
+                <nav>
+                    <ul>
+                        <li>
+                            <br><a href="#">Lixeira <box-icon name='trash-alt' type='solid' ></box-icon></a>
+                            <br><a href="#">Importe<box-icon name='file-import' type='solid' ></box-icon></a>
+                            <br><a href="#">Nova Página<box-icon name='file' ></box-icon></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </section>
         <div>
 
         </div>
-        <footer>Projeto colaborado por Kaique e Wallace</footer>
+        <footer>Projeto</footer>
     </main>
 
     <script src="Js/script.js"></script>
     <script src="https://kit.fontawesome.com/7808b3ecf0.js" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     
 </body>
 </html>
